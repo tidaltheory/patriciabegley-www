@@ -1,0 +1,37 @@
+{
+	"name": "root",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"workspaces": [
+		"www"
+	],
+	"scripts": {
+		"build:site": "npm run -w www build",
+		"dev:site": "npm run -w www start",
+		"pnpm:build:site": "pnpm run --dir www build",
+		"pnpm:dev:site": "pnpm run --dir www start",
+		"prepare": "husky"
+	},
+	"lint-staged": {
+		"*.css": [
+			"prettier --write"
+		],
+		"**/!(dist)/*.{js,ts,tsx}": [
+			"prettier --write"
+		],
+		"package.json": "prettier --write"
+	},
+	"devDependencies": {
+		"@zazen/eslint-config": "6.10.0",
+		"@zazen/prettier-config": "1.1.1",
+		"@zazen/stylelint-config": "4.0.1",
+		"eslint": "8.57.1",
+		"husky": "9.1.7",
+		"lint-staged": "15.4.3",
+		"prettier": "3.5.3",
+		"prettier-plugin-tailwindcss": "0.6.11",
+		"stylelint": "16.15.0",
+		"typescript": "5.7.3"
+	}
+}

@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+templateEngineOverride: njk,md
+---
+
+<article>
+    <div class="grid">
+        <div class="px-8 pt-[9svh] pb-[18.5svh] md:px-[10vw] md:pt-[11vh] md:pb-[22.5vh] xl:px-[10.5vw] xl:pb-[22vh]">
+            <div class="relative grid h-full grid-cols-4">
+                <div class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-2 xl:pt-12">
+                    <h1 class="text-balance font-bold uppercase leading-none text-5xl md:text-7xl xl:text-8xl">
+                        {{ title }}
+                    </h1>
+                </div>
+                <div class="z-10 col-span-3 row-start-2 self-end xl:col-span-2 grid gap-6 md:gap-10 xl:gap-12">
+                    <p class="text-grey-100 leading-trim salt font-sans text-lg md:text-xl text-pretty">
+                        {{ description }}
+                    </p>
+                    <div class="grid gap-2 md:gap-3">
+                        <p>
+                            <strong>Challenge:</strong> {{ challenge }}
+                        </p>
+                        <p>
+                            <strong>Role:</strong> {{ role }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="px-8 pt-[9svh] pb-[18.5svh] md:px-[10vw] md:pt-[11vh] md:pb-[22.5vh] xl:px-[10.5vw] xl:pb-[22vh]">
+			<div class="grid gap-8 md:gap-12 xl:gap-[4.5rem]">
+                <div class="prose">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
