@@ -1,6 +1,9 @@
 ---
+tags: work
+slug: ai-workshop
 title: AI Workshop
 description: 'Aether is a tech conference and career fair with both in-person and virtual components for both software and hardware topics'
+industry: Workshop
 challenge: How do we encourage University students to use AI for their academic pursuits?
 role: Principal of Product Design
 ---
@@ -23,7 +26,7 @@ The students were eager to understand the biggest challenges they would face in 
 
 AI as Augmented Intelligence, Not a Replacement
 
-*Here’s where I took a moment to step onto my soapbox.*
+_Here’s where I took a moment to step onto my soapbox._
 
 AI, when viewed as Augmented Intelligence (a term coined by Greg Nudelman), serves as a starting point—a brainstorming assistant, an additional perspective—not a replacement for human creativity and judgment. I emphasized this throughout the session, reinforcing that while AI can accelerate ideation, it cannot replace the critical thinking and intuition that real problem-solving requires.
 

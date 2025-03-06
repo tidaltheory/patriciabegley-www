@@ -1,6 +1,9 @@
 ---
+tags: work
+slug: fintech
 title: Fintech I
 description: A joint collaboration to enhance an online banking app for the Canadian market
+industry: Fintech
 challenge: Key challenges included miscommunication, weak component architecture, limited user testing, and lengthy reviews, hindering alignment, efficiency, and user focus.
 role: Principal of Product Design
 ---

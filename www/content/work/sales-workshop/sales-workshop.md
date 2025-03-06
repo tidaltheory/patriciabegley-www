@@ -1,6 +1,9 @@
 ---
+tags: work
+slug: sales-workshop
 title: Sales Workshop
 description: A UX approach to sales team alignment
+industry: Workshop
 challenge: Sales team facing difficulties in fully grasping and conveying the depth of our digital app development and innovation capabilities.
 role: Principal of Product Design
 ---
@@ -13,7 +16,7 @@ As Principal of Product Design, I've observed a recurring challenge: our Sales t
 
 Recognizing the need for change, I initiated an internal project to better align our UX, app development, and innovation teams with Sales. My goal was to ensure they had the knowledge and tools to confidently represent our skills in client conversations. Here’s how I approached it:
 
-**Conducting Stakeholder Interviews** - Engaging both the Sales and Digital App & Innovation teams to understand pain points, misconceptions, and key knowledge gaps.
+**Conducting Stakeholder Interviews** – Engaging both the Sales and Digital App & Innovation teams to understand pain points, misconceptions, and key knowledge gaps.
 
 **Developing a Knowledge-Sharing Framework** – Creating a structured series of workshops and resources to educate the Sales team on product design principles, digital app development processes, and innovation trends.
 
