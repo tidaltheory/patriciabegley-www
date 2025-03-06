@@ -12,10 +12,12 @@
 		<meta name="author" content="Jeff Nelson" />
 		<meta property="og:type" content="website" />
 
-        <link rel="stylesheet" href="/css/styles.css" />
-		<style>{% getBundle "css" %}</style>
+		<link rel="stylesheet" href="/css/styles.css" />
+		<style>
+			{% getBundle "css" %}
+		</style>
 	</head>
-	<body class="bg-grey-800 text-grey-100 font-sans">
+	<body class="bg-zinc-100 font-sans text-zinc-900">
 		{{ content | safe }}
 	</body>
 </html>

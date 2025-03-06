@@ -1,42 +1,48 @@
+---
+layout: layouts/home.njk
+---
+
 <article>
-    <div class="grid">
-        <div class="px-8 pt-[9svh] pb-[18.5svh] md:px-[10vw] md:pt-[11vh] md:pb-[22.5vh] xl:px-[10.5vw] xl:pb-[22vh]">
-            <div class="relative grid h-full grid-cols-4">
-                <div class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-2 xl:pt-12">
-                    <h1 class="text-balance font-bold uppercase leading-none text-5xl md:text-7xl xl:text-8xl">Patricia Begley-Nelson</h1>
-                </div>
-                <div class="z-10 col-span-3 row-start-2 self-end xl:col-span-2">
-                    <p class="text-grey-100 leading-trim salt font-sans text-lg md:text-xl">
-                        I solve problems using human-centred design thinking.<br>
-                        <small>(and asking “Why?” ad nauseam)</small>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="grid">
-        <div class="px-8 pt-[9svh] pb-[18.5svh] md:px-[10vw] md:pt-[11vh] md:pb-[22.5vh] xl:px-[10.5vw] xl:pb-[22vh]">
+	<div class="grid">
+		<div class="px-8 pt-[9svh] md:px-[10vw] md:pt-[11vh] xl:px-[10.5vw]">
+			<div class="relative grid h-full grid-cols-4">
+				<div class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-3 xl:pt-12">
+					<h1 class="text-balance font-bold uppercase leading-none text-5xl md:text-7xl xl:text-7xl">I solve problems using human-centred design thinking.</h1>
+				</div>
+				<div class="z-10 col-span-3 row-start-2 self-end xl:col-span-2">
+					<p class="text-grey-100 leading-trim salt font-sans text-lg md:text-xl">
+						(and asking “Why?” ad nauseam)
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="grid">
+		<div class="px-8 pt-[9svh] pb-[18.5svh] md:px-[10vw] md:pt-[11vh] md:pb-[22.5vh] xl:px-[10.5vw] xl:pb-[22vh]">
 			<div class="grid gap-8 md:gap-12 xl:gap-[4.5rem]">
 				<div class="grid gap-2 md:gap-4">
-                    {% for project in cases %}
-                    <article class="relative grid items-start gap-6">
-                        <header class="prose relative grid gap-4">
-                            <h4>{{ project.title }}</h4>
-                        </header>
-                        <div class="flex flex-wrap items-start gap-2 lg:order-3">
-                        </div>
-                        <div class="prose lg:order-2 lg:col-span-2">
-                            <p>{{ project.description }}</p>
-                            <p>
-                                    <a
-                                        class="underline decoration-[transparent] decoration-[0.0781em] underline-offset-[calc(0.0781em_*_2)] {FOCUS_OUTLINE}"
-                                        href="{{ project.link }}"
-                                        ><span aria-hidden="true">→</span> Read more</a
-                                    >
-                            </p>
-                        </div>
-                    </article>
-                    {% endfor %}
+					<div class="flex flex-col gap-[4.5rem] md:gap-28">
+						{%- for project in collections.work -%}
+						<article class="timeline-block relative grid items-start gap-6">
+							<header class="relative grid gap-4">
+								<span class="pip">
+									{{ project.data.industry }}
+								</span>
+								<h4>{{ project.data.title }}</h4>
+							</header>
+							<div class="prose lg:order-2 lg:col-span-2">
+								<p>{{ project.data.description }}</p>
+								<p>
+									<a
+										class="underline decoration-[transparent] decoration-[0.0781em] underline-offset-[calc(0.0781em_*_2)] {FOCUS_OUTLINE}"
+										href="/work/{{ project.data.slug }}/"
+										><span aria-hidden="true">→</span> Read more</a
+									>
+								</p>
+							</div>
+						</article>
+						{%- endfor -%}
+					</div>
 				</div>
 			</div>
         </div>
