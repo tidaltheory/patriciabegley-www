@@ -2,3 +2,25 @@
 
 @plugin "@tailwindcss/typography";
 @config "../tailwind.config.js";
+
+@layer components {
+	.bg {
+		background-image: url("/bg.jpg");
+		background-image: url("/bg.webp");
+		background-position: top center;
+		background-repeat: no-repeat;
+		mix-blend-mode: color;
+		transition: opacity 1500ms ease-in;
+
+		@variant md {
+			background-image: url("/bg-md.jpg");
+			background-image: url("/bg-md.webp");
+			background-position: top right;
+		}
+
+		@variant xl {
+			background-image: url("/bg-xl.jpg");
+			background-image: url("/bg-xl.webp");
+		}
+	}
+}
