@@ -6,12 +6,12 @@ templateEngineOverride: njk,md
 <article>
 	<div class="grid">
 		<div class="px-8 pt-[9svh] md:px-[10vw] md:pt-[11vh] xl:px-[10.5vw]">
-			<div class="relative grid h-full grid-cols-4">
+			<div class="relative grid h-full grid-cols-4 gap-4 md:gap-6 xl:gap-8">
 				<div
-					class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-2 xl:pt-12"
+					class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-3 xl:pt-12"
 				>
 					<h1
-						class="text-balance text-5xl font-bold uppercase leading-none md:text-7xl xl:text-8xl"
+						class="text-balance text-5xl font-bold uppercase leading-none md:text-7xl xl:text-7xl"
 					>
 						{{ title }}
 					</h1>
@@ -24,7 +24,7 @@ templateEngineOverride: njk,md
 					>
 						{{ description }}
 					</p>
-					<div class="prose">
+					<div class="prose prose-zinc prose-invert">
 						<p><strong>Challenge:</strong> {{ challenge }}</p>
 						<p><strong>Role:</strong> {{ role }}</p>
 					</div>
@@ -37,7 +37,7 @@ templateEngineOverride: njk,md
 			class="px-8 pb-[18.5svh] pt-[9svh] md:px-[10vw] md:pb-[22.5vh] md:pt-[11vh] xl:px-[10.5vw] xl:pb-[22vh]"
 		>
 			<div class="grid gap-8 md:gap-12 xl:gap-[4.5rem]">
-				<div class="prose">
+				<div class="prose prose-zinc prose-invert">
 					{{ content | safe }}
 				</div>
 			</div>

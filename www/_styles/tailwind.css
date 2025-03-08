@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
+@custom-variant aria-current (&:[aria-current="page"]);
 @config "../tailwind.config.js";
 
 @layer components {
@@ -9,7 +10,7 @@
 		background-image: url("/bg.webp");
 		background-position: top center;
 		background-repeat: no-repeat;
-		mix-blend-mode: color;
+		mix-blend-mode: plus-lighter;
 		transition: opacity 1500ms ease-in;
 
 		@variant md {
@@ -37,7 +38,7 @@
 			block-size: calc(100% + var(--block-gap) - 2.75rem);
 			inline-size: 2px;
 			content: "";
-			background-color: theme("colors.zinc.300");
+			background-color: theme("colors.zinc.600");
 		}
 
 		@media (min-width: 768px) {
@@ -71,7 +72,7 @@
 	}
 
 	.pip {
-		@apply text-zinc-500;
+		@apply text-zinc-300;
 
 		display: flex;
 		align-items: center; /* [1] */

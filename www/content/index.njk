@@ -5,7 +5,7 @@ layout: layouts/home.njk
 <article>
 	<div class="grid">
 		<div class="px-8 pt-[9svh] md:px-[10vw] md:pt-[11vh] xl:px-[10.5vw]">
-			<div class="relative grid h-full grid-cols-4">
+			<div class="relative grid h-full grid-cols-4 gap-4 md:gap-6 xl:gap-8">
 				<div class="z-10 col-span-full col-start-1 row-start-1 md:col-span-3 md:pt-8 xl:col-span-3 xl:pt-12">
 					<h1 class="text-balance font-bold uppercase leading-none text-5xl md:text-7xl xl:text-7xl">I solve problems using human-centred design thinking.</h1>
 				</div>
@@ -30,11 +30,11 @@ layout: layouts/home.njk
 								</span>
 								<h4>{{ project.data.title }}</h4>
 							</header>
-							<div class="prose lg:order-2 lg:col-span-2">
+							<div class="prose prose-zinc prose-invert lg:order-2 lg:col-span-2">
 								<p>{{ project.data.description }}</p>
 								<p>
 									<a
-										class="underline decoration-[transparent] decoration-[0.0781em] underline-offset-[calc(0.0781em_*_2)] {FOCUS_OUTLINE}"
+										class="underline decoration-[transparent] decoration-[0.0781em] underline-offset-[calc(0.0781em_*_2)] before:absolute before:inset-0"
 										href="/work/{{ project.data.slug }}/"
 										><span aria-hidden="true">→</span> Read more</a
 									>
