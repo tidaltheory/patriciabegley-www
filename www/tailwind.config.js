@@ -24,6 +24,10 @@ export default {
 							'max-width': '65ch',
 						},
 
+						'aside + h2': {
+							'margin-top': '0',
+						},
+
 						p: {
 							'text-wrap': 'pretty',
 						},

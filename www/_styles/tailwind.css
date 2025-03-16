@@ -4,6 +4,10 @@
 @custom-variant aria-current (&:[aria-current="page"]);
 @config "../tailwind.config.js";
 
+@theme {
+	--container-aside: calc(65ch + 192px + 40px);
+}
+
 @layer components {
 	.bg {
 		background-image: url("/bg.jpg");
