@@ -25,7 +25,9 @@ export default {
 						},
 
 						'aside + h2': {
-							'margin-top': '0',
+							'@container (width >= calc(65ch + 232px))': {
+								'margin-top': '0',
+							},
 						},
 
 						p: {
