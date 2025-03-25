@@ -13,6 +13,7 @@ _To comply with my non-disclosure agreement, I have omitted and obfuscated confi
 ## Guiding a Client’s LOS Modernization Strategy
 
 This project was particularly challenging because our client wanted diverse perspectives on the future direction of their Loan Origination System (LOS). Rather than just executing a predefined plan, they were looking for strategic guidance—insights that would help shape their modernization efforts.
+
 Given our long-standing relationship with this client, we already had deep familiarity with their existing framework and product portfolio. However, before recommending a path forward, we needed to explore not just their current system’s limitations but also the potential benefits of enhancements or even an out-of-the-box solution.
 
 ### Approach

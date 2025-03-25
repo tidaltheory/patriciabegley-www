@@ -37,6 +37,10 @@ With this mindset in place, we moved forward with:
 1. Impact/Effort Matrix – Students mapped out AI-generated insights onto this matrix to identify quick wins (low-hanging fruit) and more challenging, high-impact areas. This helped them see where they could start taking actionable steps in their job market preparation.
 2. McKinsey 3 Horizon Framework – Using this business growth strategy model, we created a roadmap that allowed students to think long-term about how they could position themselves for career success. This framework provided structure to their learning, showing how short-term actions could build towards broader, strategic goals.
 
+<figure>
+	<img src="./10-ideas.jpg" alt="" />
+</figure>
+
 ### Outcome
 
 After working through these exercises, we opened the floor for Q&A. The most common questions? How do we use AI in our daily work, and how do we avoid hallucinations?
@@ -44,3 +48,7 @@ After working through these exercises, we opened the floor for Q&A. The most com
 Again, my response echoed my earlier message: AI is a tool, not an infallible oracle. Critical thinking remains key—users must validate information, cross-check sources, and ensure AI outputs align with real-world logic.
 
 The session ended on a high note, with great feedback from students and an invitation to return in 2025. The experience reaffirmed the importance of teaching AI literacy alongside technical skills, ensuring the next generation understands not just how to use AI, but how to think critically about it.
+
+<figure>
+	<img src="./3-horizon-framework.jpg" alt="" />
+</figure>
