@@ -16,8 +16,16 @@ However, many applicants abandoned the intake process before connecting with an 
 
 ### Approach
 
-Working alongside a junior designer, together we conducted heuristic reviews of the existing workflow users engage when initially applying. As we were unable to work with users directly, we gathered insight via interviews with advisors and began mapping out workflows.
+Working alongside a junior designer, [Jillian Martin](https://www.linkedin.com/in/jillian-martin-66150ab7/), together we conducted heuristic reviews of the existing workflow users engage when initially applying. As we were unable to work with users directly, we gathered insight via interviews with advisors and began mapping out workflows.
+
+<figure class="not-prose">
+	<img src="./workflow.jpg" alt="" />
+</figure>
 
 ### Outcome
 
 The client visualized the overall journey and embraced the future state ideology, experiencing how the recommendations could simplify internal processes and enhance customer service. The team identified opportunities for incremental changes, paving the way for a more cost-effective implementation project in the future.
+
+<figure class="not-prose">
+	<img src="./outcome.jpg" alt="" />
+</figure>
