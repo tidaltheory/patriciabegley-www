@@ -24,6 +24,10 @@ export default {
 							'max-width': '65ch',
 						},
 
+						'& > .wide': {
+							'max-width': '130ch',
+						},
+
 						'aside + h2': {
 							'@container (width >= calc(65ch + 232px))': {
 								'margin-top': '0',
@@ -32,6 +36,10 @@ export default {
 
 						p: {
 							'text-wrap': 'pretty',
+						},
+
+						'figure img': {
+							border: '4px solid #fff',
 						},
 					},
 				},

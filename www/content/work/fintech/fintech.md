@@ -31,6 +31,10 @@ Since I was joining a year into the project, I quickly realized that one of the 
 
 As we established a rhythm with our research, we shifted our focus to developing a design system. This system ensures consistency and efficiency by providing standardized guidelines and reusable components across different parts of the product. Alongside two other product designers, we audited and catalogued the entire product, presenting our findings internally and to leadership. This growing system helps teams maintain a cohesive user experience and accelerates the design and development process.
 
+<figure>
+	<img src="./product-audit.jpg" alt="" />
+</figure>
+
 ### Outcome
 
 **Better alignment** across teams, reducing miscommunication and inefficiencies

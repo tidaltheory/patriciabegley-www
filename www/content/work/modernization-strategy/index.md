@@ -43,3 +43,8 @@ As we established a rhythm with our research, we shifted our focus to developing
 By the end of our discovery process, we had a clear, research-driven roadmap tailored to the client’s needs. Our insights gave them a structured way to evaluate their modernization options, aligning their business objectives, technical capabilities, and market demands.
 
 Most importantly, we didn’t just provide recommendations—we empowered them with the knowledge and strategic perspective to make confident, informed decisions about their LOS direction.
+
+<figure class="flex gap-4 wide flex-wrap lg:flex-nowrap">
+	<img src="./outcome-1.jpg" alt="" />
+	<img src="./outcome-2.jpg" alt="" />
+</figure>
