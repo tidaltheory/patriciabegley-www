@@ -2,7 +2,7 @@
 layout: layouts/about.njk
 ---
 
-For a more detailed work history, download [a PDF of my resume](./patricia-begley-nelson_resume.pdf) or visit [my LinkedIn profile](https://www.linkedin.com/in/patricia-begley-nelson/).
+For a more detailed work history, download [a PDF of my resume](/about/patricia-begley-nelson_resume.pdf) or visit [my LinkedIn profile](https://www.linkedin.com/in/patricia-begley-nelson/).
 
 ## Skills and Interest
 
